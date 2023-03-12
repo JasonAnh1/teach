@@ -1,0 +1,65 @@
+nav li{
+    display: inline-block;
+    border-left: 1px black solid;
+
+}
+nav{
+    background-color: aqua;
+}
+.dropdown-content{
+    display: none;
+}
+.dropdown:hover .dropdown-content{
+background-color: red;
+display: block;
+}
+.login{
+    display: grid;
+    border: 1px solid black ;
+    height: 400px;
+    width: 310px;
+    margin: auto;
+    justify-content: center;
+}
+.input1{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 230px;
+    height: 50px;
+    margin: auto;
+}
+.button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: blue;
+}
+.forgoten{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+div{
+    background-color: black;
+    height: 0px;
+    text-align: center;
+}
+a{
+    justify-self: center;
+    color: blue;
+    text-decoration: none;
+}
+.hr{
+    height: 1px;
+    margin-bottom: -30px;
+    text-align: center;
+    margin-top: 15px;
+}
+.button1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: green;
+    color: white;
+}
